@@ -281,9 +281,14 @@ button[type="submit"]:hover {
 }
 
 .nine p {
-  font-size: 2rem;
-  font-weight: lighter;
+  font-size: 0.875rem !important;  /* Mengurangi ukuran font */
+  font-weight: 300 !important;  
+  text-align: center !important;  /* Menyusun teks di tengah secara horizontal */
+  padding: 10px 0 !important;    /* Menambahkan padding atas dan bawah */
+  margin: 0 auto !important;     /* Menambahkan margin otomatis untuk posisi tengah */
+  width: fit-content !important; /* Menyesuaikan lebar teks dengan konten */
 }
+
 
 #replay {
   cursor: pointer;
